@@ -1,7 +1,6 @@
 "use client";
 
 import { motion } from 'framer-motion';
-import { BookOpen, Award, FileText } from 'lucide-react';
 import { InfiniteMovingCards } from './ui/infinite-moving-cards';
 
 const journalPublications = [
@@ -99,35 +98,6 @@ const conferencePublications = [
   }
 ];
 
-const patents = [
-  {
-    quote: "Automated Mark Entry in Educational Institutions Using Multiple CNNs",
-    name: "Panneer Selvam N, M. Sangeetha, P. Shanthi, Karthik N., G. Murugesan,Renjith Thomas, C. Partha, A. Vimala Juliet, V. R. Lakshmiprabha, K. E. Prakash, V. R.",
-    title: [
-      "Patent No: 2021101443",
-      "Publication date: 28/04/2021",
-      "Patent office : IP Australia"
-    ].join('\n')
-  },
-  {
-    quote: "AI Enabled Under Water Pollution Tracking Device",
-    name: " Dr. Ajesh Fysal, Dr. Felix Mattathil Philip, Ms. Anupama Jims, Dr. Renjith Thomas",
-    title: [
-      "Patent No: : 6336195",
-      "Publication date: : December 2023",
-      "Patent office :UK Design Patent"
-    ].join('\n')
-  },
-  {
-    quote: "Smart HealthCare Monitoring Apparatus",
-    name: "Asha Susan John, Amjith Noushad, Richu Jacob Johnson, Bibin Binu, Lijesh L,Renjith Thomas",
-    title: [
-      "Patent No:  424211-001",
-      "Cbr Date: 22/07/2024 19:41:17",
-      "Patent office : Certificate of Registration of Design, The Patent Office Government of India"
-    ].join('\n')
-  },
-];
 
 export function Publications() {
   return (
